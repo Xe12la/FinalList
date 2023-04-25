@@ -2,7 +2,7 @@ import { View, Text, Image, TextInput, ScrollView} from 'react-native'
 import React from 'react'
 
 const Details = ({route}) => {
-    const {name, phone, intro, overview, dev, link} = route.params;
+    const {name, intro, overview, dev, link} = route.params;
 
   return (
     <ScrollView style={{ backgroundColor: '#D2E5BE' }}>
