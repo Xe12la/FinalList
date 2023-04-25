@@ -133,6 +133,7 @@ export default function Home() {
         <ScrollView contentContainerStyle={styles.container}>
           <View style={styles.header}>
             <Text style={styles.title}>World's Top 10 Airports</Text>
+            <Image style={{width: 20, height:20, padding:20}} source={require ("../assets/Hamad International Airport.jpg")}/>
           </View>
   
           {sections.map(({ letter, items }) => (

@@ -6,7 +6,6 @@ const Details = ({route}) => {
 
   return (
     <ScrollView style={{ backgroundColor: '#D2E5BE' }}>
-        <Image source={require ("./assets/Hamad International Airport.jpg")}/>
         <Text style={{fontSize: 40, fontWeight: 'bold', marginBottom: 30, marginTop:10, textAlign:'center'}}>{route.params.name}</Text>
         <View>
         <Text style={{fontSize: 20, marginLeft: 20, fontWeight:'900'}}>I. Introduction</Text>
